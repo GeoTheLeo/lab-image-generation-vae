@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+*.pyc
+*.pyo
+
+# Data files (large)
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.npz
+*.npy
+*.csv
+*.zip
+
+# Logs
+*.log
+
+# TensorFlow / Keras
+model_weights/
+saved_model/
+checkpoint
+events.out.tfevents.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
